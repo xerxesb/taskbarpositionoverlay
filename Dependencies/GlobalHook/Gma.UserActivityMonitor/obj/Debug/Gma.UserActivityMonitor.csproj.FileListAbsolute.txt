@@ -3,3 +3,8 @@ D:\source\dotnet\TaskbarPositionOverlay\Dependencies\GlobalHook\Gma.UserActivity
 D:\source\dotnet\TaskbarPositionOverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\obj\Debug\ResolveAssemblyReference.cache
 D:\source\dotnet\TaskbarPositionOverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.dll
 D:\source\dotnet\TaskbarPositionOverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.pdb
+E:\Source\taskbarpositionoverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\bin\Debug\Gma.UserActivityMonitor.dll
+E:\Source\taskbarpositionoverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\bin\Debug\Gma.UserActivityMonitor.pdb
+E:\Source\taskbarpositionoverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\obj\Debug\ResolveAssemblyReference.cache
+E:\Source\taskbarpositionoverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.dll
+E:\Source\taskbarpositionoverlay\Dependencies\GlobalHook\Gma.UserActivityMonitor\obj\Debug\Gma.UserActivityMonitor.pdb

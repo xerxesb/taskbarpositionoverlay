@@ -1,5 +1,6 @@
 using System;
 using System.Windows.Forms;
+using System.Windows.Threading;
 using Gma.UserActivityMonitor;
 using Timer=System.Windows.Threading.DispatcherTimer;
 
@@ -24,7 +25,7 @@ namespace TaskbarOverlay
                                   {
                                       _keyAlreadyTriggered = true;
                                       _timer.Stop();
-                                      _timer.Dispatcher.Invoke((Action<KeyEventArgs>)OnKeyHeldForDuration, _keyEventArgs);
+                                      _timer.Dispatcher.Invoke(DispatcherPriority.Normal, (Action<KeyEventArgs>)OnKeyHeldForDuration, _keyEventArgs);
                                   };
 
             HookManager.KeyDown += HookManagerKeyDown;
@@ -59,7 +60,7 @@ namespace TaskbarOverlay
             if (_keyAlreadyTriggered)
             {
                 e.Handled = true;
-                _timer.Dispatcher.Invoke((Action<KeyEventArgs>)OnKeyReleased, e);
+                _timer.Dispatcher.Invoke(DispatcherPriority.Normal, (Action<KeyEventArgs>)OnKeyReleased, e);
             }
 
             HookManager.KeyDown += HookManagerKeyDown;
