@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GlobalHook", "GlobalHook", "{93A77C7D-875D-46B0-A9D6-7AFB4AF1C943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gma.UserActivityMonitor", "Dependencies\GlobalHook\Gma.UserActivityMonitor\Gma.UserActivityMonitor.csproj", "{F52AA97E-180A-40ED-8F2B-09080171D6C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarOverlay", "TaskbarOverlay\TaskbarOverlay.csproj", "{14BFA5EB-BCDA-4419-A108-AFBFCB06602B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F52AA97E-180A-40ED-8F2B-09080171D6C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52AA97E-180A-40ED-8F2B-09080171D6C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52AA97E-180A-40ED-8F2B-09080171D6C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52AA97E-180A-40ED-8F2B-09080171D6C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BFA5EB-BCDA-4419-A108-AFBFCB06602B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BFA5EB-BCDA-4419-A108-AFBFCB06602B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BFA5EB-BCDA-4419-A108-AFBFCB06602B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BFA5EB-BCDA-4419-A108-AFBFCB06602B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F52AA97E-180A-40ED-8F2B-09080171D6C7} = {93A77C7D-875D-46B0-A9D6-7AFB4AF1C943}
+	EndGlobalSection
+EndGlobal
